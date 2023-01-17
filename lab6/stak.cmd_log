@@ -1,0 +1,3 @@
+vhdtdtfi -lang verilog -prj lab6 -o C:/Users/acer/lab6/stak.tfi -lib work C:/Users/acer/lab6//stak.v -module stak -template C:/Xilinx/14.7/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/Users/acer/lab6/stak.v -lang verilog -prj lab6 -o stak.spl -module stak -template C:/Xilinx/14.7/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e stak.spl C:/Users/acer/lab6/stak.sym 

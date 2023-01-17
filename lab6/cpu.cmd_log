@@ -1,0 +1,7 @@
+xst -intstyle ise -filter "C:/Users/acer/lab6/iseconfig/filter.filter" -ifn "C:/Users/acer/lab6/cpu.xst" -ofn "C:/Users/acer/lab6/cpu.syr" 
+xst -intstyle ise -filter "C:/Users/acer/lab6/iseconfig/filter.filter" -ifn "C:/Users/acer/lab6/cpu.xst" -ofn "C:/Users/acer/lab6/cpu.syr" 
+xst -intstyle ise -filter "C:/Users/acer/lab6/iseconfig/filter.filter" -ifn "C:/Users/acer/lab6/cpu.xst" -ofn "C:/Users/acer/lab6/cpu.syr" 
+vhdtdtfi -lib work C:/Users/acer/lab6/cpu.v -lang verilog -prj lab6 -o cpu.spl -module cpu -template C:/Xilinx/14.7/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e cpu.spl C:/Users/acer/lab6/cpu.sym 
+xst -intstyle ise -filter "C:/Users/acer/lab6/iseconfig/filter.filter" -ifn "C:/Users/acer/lab6/cpu.xst" -ofn "C:/Users/acer/lab6/cpu.syr" 
+xst -intstyle ise -filter "C:/Users/acer/lab6/iseconfig/filter.filter" -ifn "C:/Users/acer/lab6/cpu.xst" -ofn "C:/Users/acer/lab6/cpu.syr" 

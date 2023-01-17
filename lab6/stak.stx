@@ -1,0 +1,35 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/acer/lab6/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/acer/lab6/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "stak.v" in library work
+ERROR:HDLCompilers:28 - "stak.v" line 26 'WIDTH' has not been declared
+ERROR:HDLCompilers:28 - "stak.v" line 28 'WIDTH' has not been declared
+ERROR:HDLCompilers:27 - "stak.v" line 37 Illegal redeclaration of 'dout'
+ERROR:HDLCompilers:27 - "stak.v" line 39 Illegal redeclaration of 'empty'
+ERROR:HDLCompilers:27 - "stak.v" line 39 Illegal redeclaration of 'full'
+Module <stak> compiled
+Analysis of file <"stak.prj"> failed.
+--> 
+
+Total memory usage is 4468468 kilobytes
+
+Number of errors   :    5 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+stak instance_name (
+    .clk(clk), 
+    .rstn(rstn), 
+    .pop(pop), 
+    .push(push), 
+    .din(din), 
+    .dout(dout), 
+    .empty(empty), 
+    .full(full)
+    );
+
+

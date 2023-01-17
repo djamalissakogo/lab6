@@ -1,0 +1,9 @@
+[Inputs]
+clk
+reset
+[Outputs]
+pc
+[BiDir]
+[ATTRIBUTES]
+VeriModel cpu
+

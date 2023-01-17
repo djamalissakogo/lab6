@@ -1,0 +1,5 @@
+xst -intstyle ise -filter "C:/Users/acer/lab6/iseconfig/filter.filter" -ifn "C:/Users/acer/lab6/test.xst" -ofn "C:/Users/acer/lab6/test.syr" 
+xst -intstyle ise -filter "C:/Users/acer/lab6/iseconfig/filter.filter" -ifn "C:/Users/acer/lab6/test.xst" -ofn "C:/Users/acer/lab6/test.syr" 
+xst -intstyle ise -filter "C:/Users/acer/lab6/iseconfig/filter.filter" -ifn "C:/Users/acer/lab6/test.xst" -ofn "C:/Users/acer/lab6/test.syr" 
+xst -intstyle ise -filter "C:/Users/acer/lab6/iseconfig/filter.filter" -ifn "C:/Users/acer/lab6/test.xst" -ofn "C:/Users/acer/lab6/test.syr" 
+xst -intstyle ise -filter "C:/Users/acer/lab6/iseconfig/filter.filter" -ifn "C:/Users/acer/lab6/test.xst" -ofn "C:/Users/acer/lab6/test.syr" 
